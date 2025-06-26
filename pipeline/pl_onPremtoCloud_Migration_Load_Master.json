@@ -22,7 +22,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "ds_OnPrem_SqlServerTable_source",
+						"referenceName": "SqlServerTable2",
 						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
