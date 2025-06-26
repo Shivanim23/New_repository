@@ -22,7 +22,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "SqlServerTable2",
+						"referenceName": "SqlServerTable3",
 						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
