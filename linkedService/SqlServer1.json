@@ -1,0 +1,22 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"Database": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=ADMIN\\SQLEXPRESS;initial catalog=@{linkedService().Database}",
+			"userName": "SHARANYA",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4Yjc1MWEzZi04YjczLTRhZDEtOWQyYS05NGRhMzc3MmNjMTQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostintegrationRuntime2",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

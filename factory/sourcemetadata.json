@@ -1,0 +1,9 @@
+{
+	"name": "sourcemetadata",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "873aa573-85b3-422b-ad7e-f9cf4f5d77dc",
+		"tenantId": "e4ccd29e-cafa-47de-9d04-102b12b38673"
+	}
+}
